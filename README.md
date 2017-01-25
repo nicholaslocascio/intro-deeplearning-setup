@@ -1,13 +1,13 @@
 # Setup & Installation for 6.S191 Labs
 
-1. Make sure you have python 2.7 installed.
+# 1. Make sure you have python 2.7 installed.
 
 To check run:
 `python --version`
 It should return `Python 2.7.X`
 Otherwise, download python 2.7 from: https://www.python.org/downloads/
 
-2. Please copy the following commands to your bash terminal:
+# 2. Please copy the following commands to your bash terminal (either pip or conda):
 
 ## Pip Instructions
 If you are using pip:
@@ -36,7 +36,7 @@ conda install jupyter;
 echo 'done'
 ```
 
-3. 
+# 3. Test that the Installation worked
 
 ## To test that your installation worked:
 ```
@@ -44,6 +44,8 @@ git clone https://github.com/nicholaslocascio/intro-deeplearning-setup
 cd intro-deeplearning-setup
 jupyter notebook
 ```
+
+Open `test_script.ipynb` in the jupyter notebook. Then run the top block in the jupyter notebook (you can run with the little right-arrow button). If no errors, congrats you're all setup! Otherwise check out the FAQ or post on Piazza.
 
 
 FAQ:
