@@ -1,10 +1,10 @@
 # Setup & Installation for 6.S191 Labs
 
-# 1. Make sure you have python 2.7 or 3.5 installed.
+# 1. Make sure you have python 2.7 or 3.3 installed.
 
 To check run:
 `python --version`
-It should return `Python 2.7.X` or `Python 3.5.X`
+It should return `Python 2.7.X` or `Python 3.3.X`
 Otherwise, download python from: https://www.python.org/downloads/
 
 # 2. Please copy the following commands to your bash terminal (either pip or conda):
