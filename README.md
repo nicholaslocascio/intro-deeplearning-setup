@@ -1,26 +1,24 @@
 # Setup & Installation for 6.S191 Labs
 
-# 1. Make sure you have python 2.7 installed.
+# 1. Make sure you have python 2.7 or 3.5 installed.
 
 To check run:
 `python --version`
-It should return `Python 2.7.X`
-Otherwise, download python 2.7 from: https://www.python.org/downloads/
+It should return `Python 2.7.X` or `Python 3.5.X`
+Otherwise, download python from: https://www.python.org/downloads/
 
 # 2. Please copy the following commands to your bash terminal (either pip or conda):
 
 ## Pip Instructions
 If you are using pip:
 ```
-git clone https://github.com/yala/introdeeplearning;
-cd introdeeplearning;
 pip install virtualenv;
-virtualenv intro_dl --python=python2.7;
+virtualenv intro_dl;
 source intro_dl/bin/activate;
 pip install --upgrade pip;
 source intro_dl/bin/activate
 pip install tensorflow;
-pip install word2vec;
+pip install gensim;
 pip install jupyter;
 echo 'done'
 ```
@@ -28,10 +26,10 @@ echo 'done'
 ## Conda Instructions
 Copy + Paste the following into your terminal
 ```
-conda create -n intro_dl python=2.7;
+conda create -n intro_dl;
 source activate intro_dl;
 conda install tensorflow;
-pip install word2vec;
+pip install gensim;
 conda install jupyter;
 echo 'done'
 ```
