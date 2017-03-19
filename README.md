@@ -1,4 +1,4 @@
-# Setup & Installation for 6.S191 Labs
+# Setup & Installation for Tensorflow
 
 # 1. Make sure you have python 2.7 or 3.3+ installed.
 
@@ -18,7 +18,6 @@ source intro_dl/bin/activate;
 pip install --upgrade pip;
 source intro_dl/bin/activate
 pip install tensorflow;
-pip install gensim;
 pip install jupyter;
 echo 'done'
 ```
@@ -29,7 +28,6 @@ Copy + Paste the following into your terminal
 conda create -n intro_dl;
 source activate intro_dl;
 conda install tensorflow;
-pip install gensim;
 conda install jupyter;
 echo 'done'
 ```
