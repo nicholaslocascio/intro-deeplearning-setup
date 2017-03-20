@@ -27,7 +27,7 @@ Copy + Paste the following into your terminal
 ```
 conda create -n intro_dl;
 source activate intro_dl;
-conda install tensorflow;
+conda install -c conda-forge tensorflow;
 conda install jupyter;
 echo 'done'
 ```
