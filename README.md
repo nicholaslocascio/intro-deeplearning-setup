@@ -18,6 +18,7 @@ source intro_dl/bin/activate;
 pip install --upgrade pip;
 source intro_dl/bin/activate
 pip install tensorflow;
+pip install pandas;
 pip install jupyter;
 echo 'done'
 ```
@@ -29,6 +30,7 @@ conda create -n intro_dl;
 source activate intro_dl;
 conda install -c conda-forge tensorflow;
 conda install jupyter;
+conda install pandas;
 echo 'done'
 ```
 
